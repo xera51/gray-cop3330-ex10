@@ -1,3 +1,7 @@
+/*
+ *  UCF COP3330 Summer 2021 Exercise 10 Solution
+ *  Copyright 2021 Christopher Gray
+ */
 package base;
 
 import org.junit.jupiter.api.Test;
