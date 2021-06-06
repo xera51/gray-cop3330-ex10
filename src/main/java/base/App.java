@@ -33,12 +33,17 @@ public class App {
 
     private double readItemPrice(int itemNumber) {
         System.out.printf("Enter the price of item %d: ", itemNumber);
-        return Double.parseDouble(in.nextLine());
+        String input = in.nextLine();
+
+        return Double.parseDouble(input);
+
     }
 
     private double readItemQuantity(int itemNumber) {
         System.out.printf("Enter the quantity of item %d: ", itemNumber);
-        return Double.parseDouble(in.nextLine());
+        String input = in.nextLine();
+
+        return Double.parseDouble(input);
     }
 
     // itemPrices and itemQuantities should be the same length
